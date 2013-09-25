@@ -11,6 +11,9 @@ namespace mMedicine_Plus
 {
     public partial class SignIn : Form
     {
+
+        global gl = new global();
+
         public SignIn()
         {
             InitializeComponent();
@@ -94,6 +97,11 @@ namespace mMedicine_Plus
             { 
 
             }
+        }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            gl.GETData("facebook.com");
         }
         
     }

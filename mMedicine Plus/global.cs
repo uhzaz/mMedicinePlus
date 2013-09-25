@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Drawing;
 using System.Windows.Forms;
+using System.Net;
+using System.IO;
+using System.Collections.Specialized;
 namespace mMedicine_Plus
 {
     class global
@@ -73,5 +76,67 @@ namespace mMedicine_Plus
         }
 
 #endregion
+
+        #region Irshad <Global Class for WebRequest>
+
+                    //This method will help in Getting Data using GET method
+                    public string GETData(string url)
+                    {
+                        try
+                        {
+                            WebClient client = new WebClient();
+                            Stream data = client.OpenRead(url);
+                            StreamReader reader = new StreamReader(data);
+                            string str = reader.ReadToEnd();
+                            reader.Close();
+                            data.Close();
+                            return str;
+                        }
+                        catch (Exception ex)
+                        {
+                            ErrorLog(ex.ToString());
+                            return "";
+                        }
+                    }
+
+                    //This method will help in Getting Data using POST method
+                    public string POSTData(string url, NameValueCollection value)
+                    {
+                        try
+                        {
+                            WebClient wc = new WebClient();
+                            NameValueCollection values = new NameValueCollection();
+                            values = value;
+                            byte[] databuffer = wc.UploadValues(url, "POST", values);
+                            string strResult = Encoding.Default.GetString(databuffer);
+                            return strResult;
+                        }
+                        catch(Exception ex)
+                        {
+                            ErrorLog(ex.ToString());
+                            return "";
+                        }
+
+                    }
+
+        //Keeping logs of Exception in a txt file.
+                    public void ErrorLog(string ex)
+                    {
+                        try
+                        {
+                            StreamWriter sw = new StreamWriter("errorlog.txt",true);
+                            string line ="------------------------------ Start ------------------------------\n" +
+                                DateTime.Now.ToString() + "\n" + ex + "\n------------------------------ End ------------------------------\n\n";
+                            sw.WriteLine(line);
+                            sw.Close();
+                            
+                        }
+                        catch(Exception exp)
+                        {
+                            MessageBox.Show(exp.ToString());
+                        }
+                    }
+        
+        #endregion
     }
 }

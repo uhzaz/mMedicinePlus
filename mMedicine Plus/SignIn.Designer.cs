@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.tbMobileNo = new System.Windows.Forms.TextBox();
-            this.tbPassword = new System.Windows.Forms.TextBox();
-            this.btnLogin = new System.Windows.Forms.Button();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.btnLogin = new System.Windows.Forms.Button();
+            this.tbPassword = new System.Windows.Forms.TextBox();
+            this.tbMobileNo = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
@@ -55,25 +55,17 @@
             this.splitContainer1.SplitterDistance = 133;
             this.splitContainer1.TabIndex = 0;
             // 
-            // tbMobileNo
+            // linkLabel1
             // 
-            this.tbMobileNo.BackColor = System.Drawing.SystemColors.Info;
-            this.tbMobileNo.Location = new System.Drawing.Point(10, 330);
-            this.tbMobileNo.Name = "tbMobileNo";
-            this.tbMobileNo.Size = new System.Drawing.Size(240, 26);
-            this.tbMobileNo.TabIndex = 0;
-            this.tbMobileNo.Enter += new System.EventHandler(this.tbMobileNo_Enter);
-            this.tbMobileNo.Leave += new System.EventHandler(this.tbMobileNo_Leave);
-            // 
-            // tbPassword
-            // 
-            this.tbPassword.BackColor = System.Drawing.SystemColors.Info;
-            this.tbPassword.Location = new System.Drawing.Point(10, 370);
-            this.tbPassword.Name = "tbPassword";
-            this.tbPassword.Size = new System.Drawing.Size(240, 26);
-            this.tbPassword.TabIndex = 1;
-            this.tbPassword.Enter += new System.EventHandler(this.tbPassword_Enter);
-            this.tbPassword.Leave += new System.EventHandler(this.tbPassword_Leave);
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
+            this.linkLabel1.LinkColor = System.Drawing.SystemColors.Info;
+            this.linkLabel1.Location = new System.Drawing.Point(182, 414);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(66, 20);
+            this.linkLabel1.TabIndex = 3;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Sign Up";
             // 
             // btnLogin
             // 
@@ -86,18 +78,28 @@
             this.btnLogin.TabIndex = 2;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = false;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
-            // linkLabel1
+            // tbPassword
             // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
-            this.linkLabel1.LinkColor = System.Drawing.SystemColors.Info;
-            this.linkLabel1.Location = new System.Drawing.Point(182, 414);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(66, 20);
-            this.linkLabel1.TabIndex = 3;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Sign Up";
+            this.tbPassword.BackColor = System.Drawing.SystemColors.Info;
+            this.tbPassword.Location = new System.Drawing.Point(10, 370);
+            this.tbPassword.Name = "tbPassword";
+            this.tbPassword.PasswordChar = '*';
+            this.tbPassword.Size = new System.Drawing.Size(240, 26);
+            this.tbPassword.TabIndex = 1;
+            this.tbPassword.Enter += new System.EventHandler(this.tbPassword_Enter);
+            this.tbPassword.Leave += new System.EventHandler(this.tbPassword_Leave);
+            // 
+            // tbMobileNo
+            // 
+            this.tbMobileNo.BackColor = System.Drawing.SystemColors.Info;
+            this.tbMobileNo.Location = new System.Drawing.Point(10, 330);
+            this.tbMobileNo.Name = "tbMobileNo";
+            this.tbMobileNo.Size = new System.Drawing.Size(240, 26);
+            this.tbMobileNo.TabIndex = 0;
+            this.tbMobileNo.Enter += new System.EventHandler(this.tbMobileNo_Enter);
+            this.tbMobileNo.Leave += new System.EventHandler(this.tbMobileNo_Leave);
             // 
             // SignIn
             // 
