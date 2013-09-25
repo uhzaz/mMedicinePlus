@@ -80,7 +80,7 @@ namespace mMedicine_Plus
         #region Irshad <Global Class for WebRequest>
 
                     //This method will help in Getting Data using GET method
-                    public string GETData(string url)
+                    public static string GETData(string url)
                     {
                         try
                         {
@@ -100,7 +100,7 @@ namespace mMedicine_Plus
                     }
 
                     //This method will help in Getting Data using POST method
-                    public string POSTData(string url, NameValueCollection value)
+                    public static string POSTData(string url, NameValueCollection value)
                     {
                         try
                         {
@@ -120,7 +120,7 @@ namespace mMedicine_Plus
                     }
 
         //Keeping logs of Exception in a txt file.
-                    public void ErrorLog(string ex)
+                    public static void ErrorLog(string ex)
                     {
                         try
                         {
