@@ -77,7 +77,7 @@ namespace mMedicine_Plus
 
 #endregion
 
-        #region Irshad <Global Class for WebRequest>
+        #region Irshad <Global Class for various operations>
 
                     //This method will help in Getting Data using GET method
                     public static string GETData(string url)
@@ -119,7 +119,7 @@ namespace mMedicine_Plus
 
                     }
 
-        //Keeping logs of Exception in a txt file.
+                    //Keeping logs of Exception in a txt file.
                     public static void ErrorLog(string ex)
                     {
                         try
@@ -134,6 +134,21 @@ namespace mMedicine_Plus
                         catch(Exception exp)
                         {
                             MessageBox.Show(exp.ToString());
+                        }
+                    }
+
+                    public static string[] parsePSV(string str)
+                    {
+                        string[] result = new string[0];
+                        try
+                        {
+                            result = str.Split('|');
+                            return result;
+                        }
+                        catch (Exception ex)
+                        {
+                            ErrorLog(ex.ToString());
+                            return result;
                         }
                     }
         

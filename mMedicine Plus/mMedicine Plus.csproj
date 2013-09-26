@@ -50,11 +50,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="global.cs" />
+    <Compile Include="mainPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainPage.Designer.cs">
+      <DependentUpon>mainPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="mMedicinePlus.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="mMedicinePlus.Designer.cs">
       <DependentUpon>mMedicinePlus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
     </Compile>
     <Compile Include="SignIn.cs">
       <SubType>Form</SubType>
@@ -64,6 +76,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="mainPage.resx">
+      <DependentUpon>mainPage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="mMedicinePlus.resx">
       <DependentUpon>mMedicinePlus.cs</DependentUpon>
     </EmbeddedResource>
@@ -75,7 +90,11 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Register.resx">
+      <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SignIn.resx">
       <DependentUpon>SignIn.cs</DependentUpon>
     </EmbeddedResource>
@@ -95,6 +114,108 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Credential.txt" />
+    <Content Include="images\ac.jpg" />
+    <Content Include="images\actionalert.png" />
+    <Content Include="images\add_to_slip_icon.png" />
+    <Content Include="images\apiconlogo.png" />
+    <Content Include="images\aroticvalv.png" />
+    <Content Include="images\articles.png" />
+    <Content Include="images\back.xml" />
+    <Content Include="images\background_appointment.xml" />
+    <Content Include="images\background_casepaper.xml" />
+    <Content Include="images\background_event.xml" />
+    <Content Include="images\background_reminder.xml" />
+    <Content Include="images\back_row_1.xml" />
+    <Content Include="images\back_row_2.xml" />
+    <Content Include="images\back_row_3.xml" />
+    <Content Include="images\back_title.xml" />
+    <Content Include="images\binoculardistance.jpg" />
+    <Content Include="images\bpd.jpg" />
+    <Content Include="images\branding.png" />
+    <Content Include="images\calender_date.xml" />
+    <Content Include="images\calender_item.xml" />
+    <Content Include="images\calvicle.jpg" />
+    <Content Include="images\cme.png" />
+    <Content Include="images\connections.png" />
+    <Content Include="images\corporatelogo.png" />
+    <Content Include="images\cpamone.jpg" />
+    <Content Include="images\cpamtwo.jpg" />
+    <Content Include="images\database_update_arrow.png" />
+    <Content Include="images\diaphysis.jpg" />
+    <Content Include="images\directory.png" />
+    <Content Include="images\directory_row_icon.png" />
+    <Content Include="images\divider.png" />
+    <Content Include="images\doctors.png" />
+    <Content Include="images\dpdtlv.jpg" />
+    <Content Include="images\dpdtrv.jpg" />
+    <Content Include="images\drug_ref_separator.png" />
+    <Content Include="images\email.png" />
+    <Content Include="images\featproduct.png" />
+    <Content Include="images\feat_product_bg.xml" />
+    <Content Include="images\fl.jpg" />
+    <Content Include="images\foot.jpg" />
+    <Content Include="images\hc.jpg" />
+    <Content Include="images\header_bg.xml" />
+    <Content Include="images\homescreenbranding.png" />
+    <Content Include="images\icd.jpg" />
+    <Content Include="images\icon.png" />
+    <Content Include="images\ic_launcher.png" />
+    <Content Include="images\interaction.png" />
+    <Content Include="images\lapmr.jpg" />
+    <Content Include="images\lavbm.jpg" />
+    <Content Include="images\left.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\lvefdm.jpg" />
+    <Content Include="images\lvefsqe.jpg" />
+    <Content Include="images\lvfs.jpg" />
+    <Content Include="images\lvmlvmi.jpg" />
+    <Content Include="images\mandiable.jpg" />
+    <Content Include="images\mbe.jpg" />
+    <Content Include="images\mca.jpg" />
+    <Content Include="images\mmedicinelogo.png" />
+    <Content Include="images\mmedicine_calculator.png" />
+    <Content Include="images\mmedicine_dictionary.png" />
+    <Content Include="images\mmedicine_drug_literature.png" />
+    <Content Include="images\mmedicine_drug_search.png" />
+    <Content Include="images\month_left.png" />
+    <Content Include="images\month_right.png" />
+    <Content Include="images\mpilv.jpg" />
+    <Content Include="images\mpirv.jpg" />
+    <Content Include="images\mpracticelogo.png" />
+    <Content Include="images\mvapht.jpg" />
+    <Content Include="images\near_me.png" />
+    <Content Include="images\others.png" />
+    <Content Include="images\patients.png" />
+    <Content Include="images\pcwp.jpg" />
+    <Content Include="images\pisa.jpg" />
+    <Content Include="images\pisams.jpg" />
+    <Content Include="images\qpqs.jpg" />
+    <Content Include="images\right.png" />
+    <Content Include="images\rounded_edges.xml" />
+    <Content Include="images\rounded_edges_one.xml" />
+    <Content Include="images\rounded_patient_bg.xml" />
+    <Content Include="images\round_edges_three.xml" />
+    <Content Include="images\rpptable.jpg" />
+    <Content Include="images\rvsp.jpg" />
+    <Content Include="images\rvsptable.jpg" />
+    <Content Include="images\save.png" />
+    <Content Include="images\scheduler.png" />
+    <Content Include="images\search.png" />
+    <Content Include="images\searchbg.png" />
+    <Content Include="images\searchicon.png" />
+    <Content Include="images\selected_calender_date.xml" />
+    <Content Include="images\settings.png" />
+    <Content Include="images\stroke.xml" />
+    <Content Include="images\svco.jpg" />
+    <Content Include="images\tablerowback.xml" />
+    <Content Include="images\tab_drug_literature_selected.png" />
+    <Content Include="images\tab_side_effect_selected.png" />
+    <Content Include="images\tbbg.png" />
+    <Content Include="images\tcd.jpg" />
+    <Content Include="images\thoraric.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="settings\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
