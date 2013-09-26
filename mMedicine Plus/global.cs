@@ -151,6 +151,19 @@ namespace mMedicine_Plus
                             return result;
                         }
                     }
+
+                    public static Boolean loginCheck()
+                    {
+                        try
+                        {
+                            return true;
+                        }
+                        catch (Exception ex)
+                        {
+                            ErrorLog(ex.ToString());
+                            return false;
+                        }
+                    }
         
         #endregion
     }

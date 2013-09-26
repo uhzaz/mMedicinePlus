@@ -118,116 +118,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="ac" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\ac.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="actionalert" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\actionalert.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="add_to_slip_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\add_to_slip_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="apiconlogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\apiconlogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="aroticvalv" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\aroticvalv.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="articles" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\articles.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="binoculardistance" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\binoculardistance.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bpd" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\bpd.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="branding" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\branding.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="calvicle" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\calvicle.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cme" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\cme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="connections" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\connections.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="corporatelogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\corporatelogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cpamone" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\cpamone.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cpamtwo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\cpamtwo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="database_update_arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\database_update_arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="diaphysis" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\diaphysis.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="directory" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\directory.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="directory_row_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\directory_row_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="divider" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\divider.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="doctors" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\doctors.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="dpdtlv" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\dpdtlv.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="dpdtrv" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\dpdtrv.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="drug_ref_separator" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\drug_ref_separator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="email" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\email.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="featproduct" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\featproduct.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="fl" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\fl.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="foot" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\foot.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="hc" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\hc.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="homescreenbranding" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\homescreenbranding.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ic_launcher" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\ic_launcher.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="icd" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\icd.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="interaction" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\interaction.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="lapmr" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\lapmr.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="lavbm" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\lavbm.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="left" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="dpdtrv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\dpdtrv.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -235,124 +130,232 @@
   <data name="lvefdm" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\lvefdm.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="lvefsqe" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\lvefsqe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="lvfs" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\lvfs.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="lvmlvmi" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\lvmlvmi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mandiable" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\mandiable.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mbe" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\mbe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mca" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\mca.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mmedicine_calculator" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\mmedicine_calculator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mmedicine_dictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\mmedicine_dictionary.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mmedicine_drug_literature" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\mmedicine_drug_literature.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mmedicine_drug_search" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\mmedicine_drug_search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mmedicinelogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\mmedicinelogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="month_left" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\month_left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="month_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\month_right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mpilv" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\mpilv.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mpirv" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\mpirv.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mpracticelogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\mpracticelogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mvapht" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\mvapht.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="near_me" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\near_me.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="others" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\others.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="patients" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\patients.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pcwp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\pcwp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pisa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\pisa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="diaphysis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\diaphysis.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pisams" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\pisams.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="qpqs" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\qpqs.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="searchbg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\searchbg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mpracticelogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mpracticelogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="near_me" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\near_me.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mbe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mbe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="others" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\others.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="branding" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\branding.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mvapht" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mvapht.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mmedicinelogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mmedicinelogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="right" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rpptable" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\rpptable.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lvefsqe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\lvefsqe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rvsp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\rvsp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="binoculardistance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\binoculardistance.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rvsptable" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\rvsptable.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="mmedicine_drug_search" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mmedicine_drug_search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="save" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\save.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="scheduler" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\scheduler.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="search" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="searchbg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\searchbg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="searchicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\searchicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="svco" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\svco.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cpamone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\cpamone.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tab_drug_literature_selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\tab_drug_literature_selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="tab_side_effect_selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\tab_side_effect_selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="mandiable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mandiable.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scheduler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\scheduler.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lvmlvmi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\lvmlvmi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="divider" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\divider.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="save" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\save.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="email" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\email.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="searchicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\searchicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\cme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tbbg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\tbbg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="rvsp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\rvsp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="qpqs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\qpqs.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dpdtlv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\dpdtlv.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_launcher" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ic_launcher.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mmedicine_drug_literature" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mmedicine_drug_literature.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="svco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\svco.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="connections" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\connections.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mca.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rvsptable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\rvsptable.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mmedicine_calculator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mmedicine_calculator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lvfs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\lvfs.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="interaction" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\interaction.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="tcd" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\tcd.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="mmedicine_dictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mmedicine_dictionary.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="patients" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\patients.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="homescreenbranding" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\homescreenbranding.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pisa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\pisa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mpirv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mpirv.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="directory_row_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\directory_row_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pcwp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\pcwp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\fl.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calvicle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\calvicle.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="featproduct" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\featproduct.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="month_left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\month_left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bpd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\bpd.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lapmr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\lapmr.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="articles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\articles.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lavbm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\lavbm.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="month_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\month_right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aroticvalv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\aroticvalv.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tab_side_effect_selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\tab_side_effect_selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="directory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\directory.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add_to_slip_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\add_to_slip_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rpptable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\rpptable.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mpilv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\mpilv.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doctors" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\doctors.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\hc.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cpamtwo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\cpamtwo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="corporatelogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\corporatelogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="drug_ref_separator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\drug_ref_separator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="actionalert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\actionalert.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="thoraric" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\thoraric.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ac" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ac.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="database_update_arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\database_update_arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="apiconlogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\apiconlogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\foot.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="featurepro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\featurepro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

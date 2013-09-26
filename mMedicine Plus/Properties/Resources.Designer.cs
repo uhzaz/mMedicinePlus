@@ -242,6 +242,13 @@ namespace mMedicine_Plus.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap featurepro {
+            get {
+                object obj = ResourceManager.GetObject("featurepro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap fl {
             get {
                 object obj = ResourceManager.GetObject("fl", resourceCulture);

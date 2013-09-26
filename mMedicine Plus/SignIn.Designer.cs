@@ -33,6 +33,7 @@
             this.btnLogin = new System.Windows.Forms.Button();
             this.tbPassword = new System.Windows.Forms.TextBox();
             this.tbMobileNo = new System.Windows.Forms.TextBox();
+            this.chkRemember = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
@@ -46,6 +47,7 @@
             // 
             // splitContainer1.Panel2
             // 
+            this.splitContainer1.Panel2.Controls.Add(this.chkRemember);
             this.splitContainer1.Panel2.Controls.Add(this.linkLabel1);
             this.splitContainer1.Panel2.Controls.Add(this.btnLogin);
             this.splitContainer1.Panel2.Controls.Add(this.tbPassword);
@@ -60,7 +62,7 @@
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
             this.linkLabel1.LinkColor = System.Drawing.SystemColors.Info;
-            this.linkLabel1.Location = new System.Drawing.Point(182, 414);
+            this.linkLabel1.Location = new System.Drawing.Point(182, 437);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(66, 20);
             this.linkLabel1.TabIndex = 3;
@@ -73,7 +75,7 @@
             this.btnLogin.AllowDrop = true;
             this.btnLogin.AutoEllipsis = true;
             this.btnLogin.BackColor = System.Drawing.SystemColors.Info;
-            this.btnLogin.Location = new System.Drawing.Point(9, 410);
+            this.btnLogin.Location = new System.Drawing.Point(9, 433);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(125, 30);
             this.btnLogin.TabIndex = 2;
@@ -101,6 +103,16 @@
             this.tbMobileNo.TabIndex = 0;
             this.tbMobileNo.Enter += new System.EventHandler(this.tbMobileNo_Enter);
             this.tbMobileNo.Leave += new System.EventHandler(this.tbMobileNo_Leave);
+            // 
+            // chkRemember
+            // 
+            this.chkRemember.AutoSize = true;
+            this.chkRemember.Location = new System.Drawing.Point(10, 403);
+            this.chkRemember.Name = "chkRemember";
+            this.chkRemember.Size = new System.Drawing.Size(133, 24);
+            this.chkRemember.TabIndex = 4;
+            this.chkRemember.Text = "Remember Me";
+            this.chkRemember.UseVisualStyleBackColor = true;
             // 
             // SignIn
             // 
@@ -132,6 +144,7 @@
         private System.Windows.Forms.TextBox tbMobileNo;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Button btnLogin;
+        private System.Windows.Forms.CheckBox chkRemember;
     }
 }
 

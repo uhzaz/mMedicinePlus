@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.IO;
 
 namespace mMedicine_Plus
 {
@@ -111,6 +112,13 @@ namespace mMedicine_Plus
                         if (result[0] == "Yes")
                         {
                             mainPage form = new mainPage();
+                            if (chkRemember.Checked)
+                            {
+                                StreamWriter sw = new StreamWriter("mmedicine");
+                                sw.Write(CryptorEngine.Encrypt( tbMobileNo.Text, true )+ "\n" + 
+                                    CryptorEngine.Encrypt(tbPassword.Text,true));
+                                sw.Close();
+                            }
                             form.Show();
                             this.Hide();
                         }

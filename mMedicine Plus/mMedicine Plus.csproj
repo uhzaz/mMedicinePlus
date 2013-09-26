@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CryptorEngine.cs" />
     <Compile Include="global.cs" />
     <Compile Include="mainPage.cs">
       <SubType>Form</SubType>
@@ -98,6 +99,7 @@
     <EmbeddedResource Include="SignIn.resx">
       <DependentUpon>SignIn.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="App.config" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -151,6 +153,7 @@
     <Content Include="images\drug_ref_separator.png" />
     <Content Include="images\email.png" />
     <Content Include="images\featproduct.png" />
+    <Content Include="images\featurepro.png" />
     <Content Include="images\feat_product_bg.xml" />
     <Content Include="images\fl.jpg" />
     <Content Include="images\foot.jpg" />
