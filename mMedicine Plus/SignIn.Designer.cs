@@ -28,12 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SignIn));
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.chkRemember = new System.Windows.Forms.CheckBox();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.btnLogin = new System.Windows.Forms.Button();
             this.tbPassword = new System.Windows.Forms.TextBox();
             this.tbMobileNo = new System.Windows.Forms.TextBox();
-            this.chkRemember = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
@@ -45,6 +46,10 @@
             this.splitContainer1.Location = new System.Drawing.Point(0, 0);
             this.splitContainer1.Name = "splitContainer1";
             // 
+            // splitContainer1.Panel1
+            // 
+            this.splitContainer1.Panel1.Enabled = false;
+            // 
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.chkRemember);
@@ -53,9 +58,20 @@
             this.splitContainer1.Panel2.Controls.Add(this.tbPassword);
             this.splitContainer1.Panel2.Controls.Add(this.tbMobileNo);
             this.splitContainer1.Panel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            
             this.splitContainer1.Size = new System.Drawing.Size(400, 480);
             this.splitContainer1.SplitterDistance = 133;
             this.splitContainer1.TabIndex = 0;
+            // 
+            // chkRemember
+            // 
+            this.chkRemember.AutoSize = true;
+            this.chkRemember.Location = new System.Drawing.Point(10, 403);
+            this.chkRemember.Name = "chkRemember";
+            this.chkRemember.Size = new System.Drawing.Size(133, 24);
+            this.chkRemember.TabIndex = 4;
+            this.chkRemember.Text = "Remember Me";
+            this.chkRemember.UseVisualStyleBackColor = true;
             // 
             // linkLabel1
             // 
@@ -104,16 +120,6 @@
             this.tbMobileNo.Enter += new System.EventHandler(this.tbMobileNo_Enter);
             this.tbMobileNo.Leave += new System.EventHandler(this.tbMobileNo_Leave);
             // 
-            // chkRemember
-            // 
-            this.chkRemember.AutoSize = true;
-            this.chkRemember.Location = new System.Drawing.Point(10, 403);
-            this.chkRemember.Name = "chkRemember";
-            this.chkRemember.Size = new System.Drawing.Size(133, 24);
-            this.chkRemember.TabIndex = 4;
-            this.chkRemember.Text = "Remember Me";
-            this.chkRemember.UseVisualStyleBackColor = true;
-            // 
             // SignIn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -122,6 +128,7 @@
             this.ClientSize = new System.Drawing.Size(400, 480);
             this.Controls.Add(this.splitContainer1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "SignIn";
             this.Opacity = 0.98D;
