@@ -40,8 +40,9 @@
             this.Name = "mMedicinePlus";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "mMedicine Plus";
-            this.Load += new System.EventHandler(this.mMedicinePlus_Load);
             this.ResumeLayout(false);
+            this.Load += new System.EventHandler(this.mMedicinePlus_Load);
+            
 
         }
 

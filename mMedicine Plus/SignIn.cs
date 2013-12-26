@@ -24,7 +24,30 @@ namespace mMedicine_Plus
 
         private void SignIn_Load(object sender, EventArgs e)
         {
-           
+            try { 
+                // read if there is a username and password saved 
+                using (StreamReader sr = new StreamReader("mmedicine"))
+                {
+                    int lineCnt = 0; 
+                    while (sr.Peek() >= 0)
+                    {
+                        lineCnt++;
+                        switch (lineCnt) { 
+                            case 1:
+                                tbMobileNo.Text=  CryptorEngine.Decrypt(sr.ReadLine(), true);
+                                break;
+                            case 2:
+                                tbPassword.Text= CryptorEngine.Decrypt(sr.ReadLine(), true);
+                                break;
+
+                        }
+                        
+                    }
+                }
+
+
+            }
+            catch (Exception ex) { }
         }
 
         private void tbReset(string format)
@@ -80,6 +103,7 @@ namespace mMedicine_Plus
             {
 
             }
+            
         }
 
         private void tbPassword_Leave(object sender, EventArgs e)
@@ -111,7 +135,8 @@ namespace mMedicine_Plus
                     {
                         if (result[0] == "Yes")
                         {
-                            mainPage form = new mainPage();
+                            
+                            mainPage form = new mainPage(result);
                             if (chkRemember.Checked)
                             {
                                 StreamWriter sw = new StreamWriter("mmedicine");
@@ -146,6 +171,8 @@ namespace mMedicine_Plus
             form.Show();
             this.Hide();
         }
+
+       
         
     }
 }
