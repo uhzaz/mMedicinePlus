@@ -28,13 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainPage));
+            this.tbSearch = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.lblFeature = new System.Windows.Forms.Label();
             this.pbFeature = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
@@ -43,8 +43,10 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pbHeader = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.bkwDrugDatabase = new System.ComponentModel.BackgroundWorker();
+            this.pbHeaderSponsor = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbFeature)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -53,17 +55,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbHeader)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbHeaderSponsor)).BeginInit();
             this.SuspendLayout();
             // 
-            // textBox1
+            // tbSearch
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(62, 37);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(326, 47);
-            this.textBox1.TabIndex = 3;
+            this.tbSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbSearch.Location = new System.Drawing.Point(62, 37);
+            this.tbSearch.Name = "tbSearch";
+            this.tbSearch.Size = new System.Drawing.Size(326, 47);
+            this.tbSearch.TabIndex = 3;
             // 
             // label1
             // 
@@ -120,25 +123,13 @@
             this.label5.TabIndex = 13;
             this.label5.Text = "Settings";
             // 
-            // lblFeature
-            // 
-            this.lblFeature.AutoSize = true;
-            this.lblFeature.BackColor = System.Drawing.Color.Gray;
-            this.lblFeature.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFeature.ForeColor = System.Drawing.Color.Gold;
-            this.lblFeature.Location = new System.Drawing.Point(248, 197);
-            this.lblFeature.Name = "lblFeature";
-            this.lblFeature.Size = new System.Drawing.Size(151, 27);
-            this.lblFeature.TabIndex = 16;
-            this.lblFeature.Text = "Feat. Products";
-            // 
             // pbFeature
             // 
             this.pbFeature.BackColor = System.Drawing.Color.Gray;
             this.pbFeature.Image = global::mMedicine_Plus.Properties.Resources.featurepro;
-            this.pbFeature.Location = new System.Drawing.Point(1, 196);
+            this.pbFeature.Location = new System.Drawing.Point(1, 397);
             this.pbFeature.Name = "pbFeature";
-            this.pbFeature.Size = new System.Drawing.Size(398, 142);
+            this.pbFeature.Size = new System.Drawing.Size(398, 80);
             this.pbFeature.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pbFeature.TabIndex = 15;
             this.pbFeature.TabStop = false;
@@ -217,22 +208,36 @@
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             // 
-            // pictureBox1
+            // pbHeader
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(1, 1);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(398, 27);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.pbHeader.Location = new System.Drawing.Point(1, 1);
+            this.pbHeader.Name = "pbHeader";
+            this.pbHeader.Size = new System.Drawing.Size(193, 27);
+            this.pbHeader.TabIndex = 0;
+            this.pbHeader.TabStop = false;
             // 
             // pictureBox9
             // 
             this.pictureBox9.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.pictureBox9.Location = new System.Drawing.Point(1, 90);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(398, 100);
+            this.pictureBox9.Size = new System.Drawing.Size(398, 93);
             this.pictureBox9.TabIndex = 14;
             this.pictureBox9.TabStop = false;
+            // 
+            // bkwDrugDatabase
+            // 
+            this.bkwDrugDatabase.WorkerReportsProgress = true;
+            this.bkwDrugDatabase.WorkerSupportsCancellation = true;
+            this.bkwDrugDatabase.DoWork += new System.ComponentModel.DoWorkEventHandler(this.bkwDrugDatabase_DoWork);
+            // 
+            // pbHeaderSponsor
+            // 
+            this.pbHeaderSponsor.Location = new System.Drawing.Point(195, 1);
+            this.pbHeaderSponsor.Name = "pbHeaderSponsor";
+            this.pbHeaderSponsor.Size = new System.Drawing.Size(201, 27);
+            this.pbHeaderSponsor.TabIndex = 16;
+            this.pbHeaderSponsor.TabStop = false;
             // 
             // mainPage
             // 
@@ -240,7 +245,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.ClientSize = new System.Drawing.Size(400, 480);
-            this.Controls.Add(this.lblFeature);
+            this.Controls.Add(this.pbHeaderSponsor);
             this.Controls.Add(this.pbFeature);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -252,17 +257,19 @@
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tbSearch);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pbHeader);
             this.Controls.Add(this.pictureBox9);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "mainPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "mMedicine Plus";
+            this.Load += new System.EventHandler(this.mainPage_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbFeature)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
@@ -271,8 +278,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbHeader)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbHeaderSponsor)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -280,10 +288,10 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pbHeader;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tbSearch;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox6;
@@ -296,6 +304,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.PictureBox pbFeature;
-        private System.Windows.Forms.Label lblFeature;
+        private System.ComponentModel.BackgroundWorker bkwDrugDatabase;
+        private System.Windows.Forms.PictureBox pbHeaderSponsor;
     }
 }

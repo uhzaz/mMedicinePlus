@@ -52,7 +52,7 @@ namespace mMedicine_Plus
                #endregion
                #region dictionary  , drug 
                public static string dictionaryList = plusBaseUrl + "/dictionary/0" ; // change 0 for specific id 
-               public static string drugList = plusBaseUrl + "/list/drugs?"; //pattern 
+               public static string drugList = plusBaseUrl + "/list/drugs?pattern="; //pattern 
                public static string drugMonograph = plusBaseUrl + "/genric/0"; // change 0 to specific id 
                 
                #endregion 
@@ -166,5 +166,52 @@ namespace mMedicine_Plus
                     }
         
         #endregion
+
+
+        
+   
+       
     }
+ #region drug class
+    public class drug
+    {
+        public string Category;
+        public string Manufacturer;
+        public string SubCategory;
+        public string generic;
+        public double Price_INR;
+        public double Price_USD;
+        public string Drug;
+        public string Note;
+        public string Packing;
+        public int SMH;
+        public string Indication_Uses;
+        public string SCH;
+
+        public drug() { }
+
+        public List<drug> loadLocal() {
+
+            List<drug> data = new List<drug>();
+            // open the file and load the drug data
+            
+            return data;
+        }
+
+        public List<drug> loadStr(string jsonStr) 
+        {
+            List<drug> data = new List<drug>();
+            // take the input string and conver the array to the list of drugs data store. 
+            return data;
+        }
+
+        public void updateData(List<drug> data)
+        { 
+            // check if the drug name exist in the file 
+            // if not then add the record 
+            // if yes ignore 
+        }
+    }
+    #endregion
+
 }
